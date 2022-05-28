@@ -39,8 +39,9 @@
 - Undefined && Null
 
   - undefined와 null은 모든 타입의 서브 타입이므로, number에 null과 undefined를 넣을 수 있다.
-  - 따라서 strictNullChecks를 사용하면, 개발하면서 null, undefined를 할당할 수 없게 할 수 있다.
+  - 따라서 strict(--strictNullChecks)를 사용하면, 개발하면서 null, undefined를 할당할 수 없게 할 수 있다.
   - Union Type을 쓰면, 변수를 nullable하거나 undefined 가 되도록 할 수 있다.
   - Union Type을 쓰면 나중에 소개될 예정인 타입가드를 할 수 있다.
   - null을 런타임에서 typeof 연산자를 이용해서 알아내면, object다.
   - undefined를 런타임에서 typeof 연산자를 이용해서 알아내면, undefined다.
+  - strict
